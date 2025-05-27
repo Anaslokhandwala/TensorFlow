@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Apache', :file => 'LICENSE' }
   s.authors          = 'Google Inc.'
   s.platform         = :ios, '12.0'
-  s.source = { :path => '.' }
+  s.source       = { :git => "https://github.com/Anaslokhandwala/TensorFlow.git", :tag => "0.4.0" }
   s.module_name      = 'TensorFlowLiteTaskVision'
   s.static_framework = true
 
