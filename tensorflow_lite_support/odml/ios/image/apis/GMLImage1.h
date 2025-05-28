@@ -28,7 +28,7 @@ static const GMLImageSourceType GMLImageSourceTypePixelBuffer = 1;
 static const GMLImageSourceType GMLImageSourceTypeSampleBuffer = 2;
 
 /** An image used in on-device machine learning. */
-NS_SWIFT_NAME(MLImage)
+NS_SWIFT_NAME(MLImage1)
 @interface GMLImage1 : NSObject
 
 /** Width of the image in pixels. */
